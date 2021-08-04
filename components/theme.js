@@ -1,7 +1,16 @@
+const colors = {
+  darkBlue: '#090a0f',
+  lightBlue: '#02afe2',
+  teal: '#38e3bf',
+  white: '#ffffff',
+}
+
 const theme = {
   colors: {
-    red: '#ff0000',
-  }
+    background: colors.darkBlue,
+    text: colors.white,
+  },
+  font: '"Montserrat", sans-serif',
 }
 
 export default theme
