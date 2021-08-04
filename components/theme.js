@@ -10,7 +10,7 @@ const theme = {
     background: colors.darkBlue,
     text: colors.white,
   },
-  font: '"Montserrat", sans-serif',
+  font: '"Roboto", sans-serif',
 }
 
 export default theme
