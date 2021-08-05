@@ -9,6 +9,11 @@ const GlobalStyle = createGlobalStyle`
     background: ${props => props.theme.gradients.dark};
     color: ${props => props.theme.colors.text};
     font-family: ${props => props.theme.font};
+    min-height: 100vh;
+  }
+
+  #__next {
+    min-height: 100vh;
   }
 `
 

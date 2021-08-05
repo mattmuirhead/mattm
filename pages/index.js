@@ -2,7 +2,8 @@ import {
   Heading1,
   Body,
 } from '/components/atoms/Typography'
-import { FlexColumn } from '/components/atoms/Layout'
+import { FlexColumn, Flex } from '/components/atoms/Layout'
+import Button from '/components/atoms/Button'
 import styled from 'styled-components'
 
 const Gradient = styled.span`
@@ -13,7 +14,7 @@ const Gradient = styled.span`
 
 const Home = () => {
   return (
-    <FlexColumn maxWidth="500px" m="auto" p={2} textAlign="center">
+    <FlexColumn maxWidth="500px" m="auto" p={2} textAlign="center" height="100%" alignItems="center">
       <Heading1 mb={3}>
         Matt Muirhead<br/>  
         <Gradient>Software Engineer</Gradient>
@@ -21,6 +22,11 @@ const Home = () => {
       <Body>
         Opening statement here that says what I do, maybe something about pixel perfect replication of design.
       </Body>
+
+      <Flex justifyContent="center" mt={4}>
+        <Button type="primary" mx={2}>Primary Button</Button>
+        <Button type="secondary" mx={2}>Secondary Button</Button>
+      </Flex>
     </FlexColumn>
   )
 }

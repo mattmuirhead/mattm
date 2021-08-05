@@ -9,7 +9,7 @@ const typographyStyles = css`
 `
 
 const headingStyles = css`
-  font-weight: 500;
+  font-weight: 700;
   color: ${props => props.theme.colors.heading};
   line-height: 1.1;
 `
