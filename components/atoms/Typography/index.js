@@ -3,37 +3,51 @@ import { color, space } from 'styled-system'
 
 const typographyStyles = css`
   margin: 0;
-  ${color}
-  ${space}
+  line-height: 1.5;
+  ${color};
+  ${space};
+`
+
+const headingStyles = css`
+  font-weight: 500;
+  color: ${props => props.theme.colors.heading};
+  line-height: 1.1;
 `
 
 const Heading1 = styled.h1`
-  font-size: 60px;  
-  ${typographyStyles}
+  font-size: 54px;  
+  ${typographyStyles};
+  ${headingStyles};
 `
 const Heading2 = styled.h2`
   font-size: 42px;  
-  ${typographyStyles}
+  ${typographyStyles};
+  ${headingStyles};
 `
 const Heading3 = styled.h3`
   font-size: 36px;  
-  ${typographyStyles}
+  ${typographyStyles};
+  ${headingStyles};
 `
 const Heading4 = styled.h4`
   font-size: 30px;  
-  ${typographyStyles}
+  ${typographyStyles};
+  ${headingStyles};
 `
 const Heading5 = styled.h5`
   font-size: 24px;  
-  ${typographyStyles}
+  ${typographyStyles};
+  ${headingStyles};
 `
 const Body = styled.p`
-  font-size: 16px;  
-  ${typographyStyles}
+  font-size: 18px;
+  font-weight: 300;
+  ${typographyStyles};
 `
 const Label = styled.label`
-  font-size: 12px;  
-  ${typographyStyles}
+  font-size: 12px;
+  font-weight: 300;
+  ${typographyStyles};
 `
 
 export {
