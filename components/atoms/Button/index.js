@@ -8,7 +8,7 @@ const primaryStyles = css`
 `
 const secondaryStyles = css`
   background: transparent;
-  border: 1px solid ${props => props.theme.colors.secondary};
+  border: 2px solid ${props => props.theme.colors.secondary};
   color: ${props => props.theme.colors.secondary};
   padding: 8px 16px;
 `
