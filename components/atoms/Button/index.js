@@ -17,11 +17,16 @@ const Button = styled.button`
   appearance: none;
   border: 0;
   border-radius: 3px;
-  font-size: 16px;
+  font-size: 14px;
   cursor: pointer;
   font-weight: 600;
   ${props => props.type === 'primary' && primaryStyles};
   ${props => props.type === 'secondary' && secondaryStyles};
+
+  @media (min-width: 700px) {
+    font-size: 16px;
+  }
+
   ${space};
 `
 

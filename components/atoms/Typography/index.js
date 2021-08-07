@@ -15,7 +15,10 @@ const headingStyles = css`
 `
 
 const Heading1 = styled.h1`
-  font-size: 54px;  
+  font-size: 36px;
+  @media (min-width: 700px) {
+    font-size: 54px;  
+  }
   ${typographyStyles};
   ${headingStyles};
 `
@@ -40,8 +43,11 @@ const Heading5 = styled.h5`
   ${headingStyles};
 `
 const Body = styled.p`
-  font-size: 18px;
+  font-size: 16px;
   font-weight: 300;
+  @media (min-width: 700px) {
+    font-size: 18px;  
+  }
   ${typographyStyles};
 `
 const Label = styled.label`
