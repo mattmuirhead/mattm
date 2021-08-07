@@ -15,7 +15,7 @@ const headingStyles = css`
 `
 
 const Heading1 = styled.h1`
-  font-size: 36px;
+  font-size: 34px;
   @media (min-width: 700px) {
     font-size: 54px;  
   }
@@ -42,6 +42,14 @@ const Heading5 = styled.h5`
   ${typographyStyles};
   ${headingStyles};
 `
+const Heading6 = styled.h5`
+  font-size: 16px;  
+  @media (min-width: 700px) {
+    font-size: 18px;  
+  }
+  ${typographyStyles};
+  ${headingStyles};
+`
 const Body = styled.p`
   font-size: 16px;
   font-weight: 300;
@@ -62,6 +70,7 @@ export {
   Heading3,
   Heading4,
   Heading5,
+  Heading6,
   Body,
   Label,
 }

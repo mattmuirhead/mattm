@@ -1,9 +1,8 @@
-import { loadGetInitialProps } from 'next/dist/next-server/lib/utils'
 import { createGlobalStyle } from 'styled-components'
 
 const GlobalStyle = createGlobalStyle`
   * {
-    
+    box-sizing: border-box;
   }
 
   body {

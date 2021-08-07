@@ -12,6 +12,7 @@ const theme = {
     background: colors.offBlack,
     heading: colors.white,
     text: colors.grey,
+    textInvert: colors.offBlack,
     highlight: colors.lightBlue,
     secondary: colors.white,
   },
